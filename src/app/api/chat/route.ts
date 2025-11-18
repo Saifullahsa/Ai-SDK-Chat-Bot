@@ -31,7 +31,7 @@ export async function POST(req: Request) {
     }
 
     const result = streamText({
-      model: openrouter('mistralai/mistral-small-3.2-24b-instruct:free'),
+      model: openrouter('openai/gpt-oss-20b:free'),
       messages: messages,
     });
 
